@@ -1,0 +1,17 @@
+{
+  "alert_days": 2916,
+  "episodes": 625,
+  "notifications": 182,
+  "reduction_pct": 93.8,
+  "notifications_by_type": {
+    "no_generation": 95,
+    "underperforming": 86,
+    "missing_data": 1
+  },
+  "master_data_issues": {
+    "capacity_too_low": 15,
+    "meter_channels_suspect": 2
+  },
+  "functional_locations": 300,
+  "equipment": 600
+}

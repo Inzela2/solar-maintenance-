@@ -1,0 +1,21 @@
+// Paste each measure into Power BI: Modeling > New measure.
+
+Total Generation (MWh) = DIVIDE ( SUM ( fact_daily_generation[gen_kwh] ), 1000 )
+
+Open Notifications = COUNTROWS ( fact_notifications )
+
+Priority 1 Notifications =
+CALCULATE ( COUNTROWS ( fact_notifications ), fact_notifications[PRIOK] = 1 )
+
+Work Orders On Target % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( fact_work_orders ), fact_work_orders[met_target] = TRUE () ),
+    COUNTROWS ( fact_work_orders )
+)
+
+Median Days To Schedule = MEDIAN ( fact_work_orders[days_to_schedule] )
+
+Sites With Data Issues =
+CALCULATE ( DISTINCTCOUNT ( dim_site[TPLNR] ), dim_site[has_data_issue] = TRUE () )
+
+Fleet Performance Ratio = MEDIAN ( fact_daily_generation[perf_ratio] )

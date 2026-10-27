@@ -1,0 +1,7 @@
+rule,priority,jobs,met_target_pct,median_days_to_schedule
+fifo,1,95,95.8,0.0
+fifo,2,1,100.0,2.0
+fifo,3,86,100.0,1.0
+priority,1,95,98.9,0.0
+priority,2,1,100.0,2.0
+priority,3,86,100.0,1.0

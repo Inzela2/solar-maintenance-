@@ -1,0 +1,18 @@
+TPLNR,issue,detail
+SOL-NSW-2263-023,capacity_too_low,peak output is 165% of rated capacity; capacity on the PV array record is probably wrong
+SOL-NSW-2261-050,capacity_too_low,peak output is 121% of rated capacity; capacity on the PV array record is probably wrong
+SOL-NSW-2190-060,capacity_too_low,peak output is 131% of rated capacity; capacity on the PV array record is probably wrong
+SOL-NSW-2074-082,capacity_too_low,peak output is 119% of rated capacity; capacity on the PV array record is probably wrong
+SOL-NSW-2093-097,meter_channels_suspect,generation recorded at night on 69 days; meter channels may be swapped
+SOL-NSW-2100-112,capacity_too_low,peak output is 123% of rated capacity; capacity on the PV array record is probably wrong
+SOL-NSW-2263-137,capacity_too_low,peak output is 124% of rated capacity; capacity on the PV array record is probably wrong
+SOL-NSW-2324-146,meter_channels_suspect,generation recorded at night on 47 days; meter channels may be swapped
+SOL-NSW-2282-148,capacity_too_low,peak output is 141% of rated capacity; capacity on the PV array record is probably wrong
+SOL-NSW-2190-199,capacity_too_low,peak output is 129% of rated capacity; capacity on the PV array record is probably wrong
+SOL-NSW-2259-215,capacity_too_low,peak output is 136% of rated capacity; capacity on the PV array record is probably wrong
+SOL-NSW-2230-219,capacity_too_low,peak output is 144% of rated capacity; capacity on the PV array record is probably wrong
+SOL-NSW-2120-221,capacity_too_low,peak output is 141% of rated capacity; capacity on the PV array record is probably wrong
+SOL-NSW-2088-262,capacity_too_low,peak output is 149% of rated capacity; capacity on the PV array record is probably wrong
+SOL-NSW-2326-265,capacity_too_low,peak output is 153% of rated capacity; capacity on the PV array record is probably wrong
+SOL-NSW-2305-285,capacity_too_low,peak output is 163% of rated capacity; capacity on the PV array record is probably wrong
+SOL-NSW-2076-299,capacity_too_low,peak output is 148% of rated capacity; capacity on the PV array record is probably wrong

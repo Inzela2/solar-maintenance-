@@ -1,0 +1,19 @@
+[project]
+name = "maintplan"
+version = "0.1.0"
+description = "Solar fault alerts to SAP PM-style notifications, scheduled work orders and a Power BI model."
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "matplotlib"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
